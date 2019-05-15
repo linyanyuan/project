@@ -1,0 +1,72 @@
+
+li{
+    list-style:none;
+}
+a,img{
+    border:none;
+}
+html a{
+    text-decoration: none;
+    color: #657180;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.app-active{
+    color:rgb(210, 16, 16);
+}
+.el-submenu__title i {
+    color: #fff;
+}
+img{
+    vertical-align: top;
+}
+b, strong {
+    font-weight: normal;
+    color: #fff;
+}
+
+/*公共样式*/
+.box{
+    flex: 1;
+    overflow-y: auto;
+    /*padding: 10px;*/
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+/*7/31为解决table竖线不对齐 添加*/
+/*body .el-table th.gutter{
+  display: table-cell!important;
+}*/
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+    !* Chrome- and Safari-specific CSS here*!
+    body .el-table th.gutter{
+        display: table-cell!important;
+    }
+}*/
+.boxOne{
+    flex: 1;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.userinfo .el-badge__content.is-fixed{
+    top: 17px;
+    right: 30px;
+}
+.el-tabs__item{
+    font-weight: normal;
+}
+/*v-bar*/
+.homeContent .el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+.homeContent .el-scrollbar__view{
+    height: 100%;
+}
+.homeContent .el-scrollbar__thumb{
+    background-color:rgb(238, 238, 239);
+}
